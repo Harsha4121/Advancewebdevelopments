@@ -1,0 +1,15 @@
+<?php
+// defining the function
+function greetings()
+{
+echo "Merry Christmas and a Very Happy New Year";
+}
+echo "Hey Martha <br/>";
+// calling the function
+greetings();
+// next line
+echo "<br/>";
+echo "Hey Jon <br/>";
+// calling the function again
+greetings();
+?>
