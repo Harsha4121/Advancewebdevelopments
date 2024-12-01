@@ -33,8 +33,6 @@ width: 10 0px;
 height: 100px;
 border: 1px solid #ccc; /* gray border around image */
 border-radius: 10px; /* rounded corners */
-2
-230282601036
 padding: 10px;
 margin: 20px;
 }
@@ -72,8 +70,6 @@ border: 1px solid #ccc;
 padding: 10px;
 text-align: left;
 }
-3
-230282601036
 th {
 background-color: #f0f0f0; /* light gray background for table headers
 */
@@ -105,8 +101,6 @@ image on the webpage">
 </ol>
 <h2>Electives</h2>
 <ul>
-4
-230282601036
 <li>Cyber Security</li>
 <li>Full Stack Development</li>
 <li>Devops</li>
