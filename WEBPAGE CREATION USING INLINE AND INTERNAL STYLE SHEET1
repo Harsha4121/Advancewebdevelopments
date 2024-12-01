@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camera Shopping</title>
+<style>
+/* Internal Style Sheet */
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+header {
+background-color: #333;
+color: #fff;
+padding: 10px;
+}
+h1 {
+margin: 0;
+}
+#product-details {
+max-width: 600px;
+margin: 20px auto;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#product-image {
+text-align: center;
+margin-top: 20px;
+}
+img {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+}
+footer {
+text-align: center;
+padding: 10px;
+background-color: #333;
+color: #fff;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Camera Shopping</h1>
+</header>
+<section id="product-details">
+<h2>Product Name: XYZ Camera</h2>
+<p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero nec turpis
+aliquam eleifend.</p>
+<p>Price: $599.99</p>
+<button onclick="addToCart()">Add to Cart</button>
+</section>
+<section id="product-image">
+<img src="camera_image.jpg" alt="XYZ Camera">
+</section>
+<footer>
+<p>&copy; 2023 Camera Shopping. All rights reserved.</p>
+</footer>
+<script>
+// Algorithm (JavaScript)
+function addToCart() {
+alert('Product added to the cart!');
+// Additional logic for adding the product to the cart can be implemented here
+}
+</script>
+</body>
+</html>
